@@ -12,7 +12,7 @@ function Login() {
           <TextInput
             id="email2"
             type="email"
-            placeholder="name@flowbite.com"
+            placeholder="name@gmail.com"
             required
             shadow
           />
@@ -21,10 +21,10 @@ function Login() {
           <div className="mb-2 block">
             <Label htmlFor="password2" value="Your password" />
           </div>
-          <TextInput id="password2" type="password" required shadow />
+          <TextInput id="password2" type="password" required shadow  placeholder="Enter your Password" />
         </div>
 
-        <Button type="submit">Register new account</Button>
+        <Button type="submit">Login</Button>
         <Link
           to="/register"
           className="text-cyan-600 hover:underline dark:text-cyan-500 decoration-none "

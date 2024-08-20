@@ -4,7 +4,7 @@ import { Carousel } from "flowbite-react";
 
 function Slider() {
   return (
-    <div className="h-[300px] sm:h-64 xl:h-80 2xl:h-[120px">
+    <div className="h-[190px] lg:h-[300px] sm:h-64 xl:h-80 2xl:h-[120px">
       <Carousel pauseOnHover>
         <img  className="object-fill w-[100%]"
          fill="currentColor"

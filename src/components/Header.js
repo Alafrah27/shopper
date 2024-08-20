@@ -47,10 +47,8 @@ export function Header() {
       </div>
 
       <Navbar.Collapse>
-        <Navbar.Link href="#" active>
-          Home
-        </Navbar.Link>
-        <Navbar.Link href="#">Phones</Navbar.Link>
+       
+        <Navbar.Link href="#" active>Phones</Navbar.Link>
         <Navbar.Link href="#">Laptop</Navbar.Link>
         <Navbar.Link href="#">mens</Navbar.Link>
         <Navbar.Link href="#">kids</Navbar.Link>
