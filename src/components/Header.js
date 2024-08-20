@@ -1,5 +1,5 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
-import { DarkThemeToggle, Flowbite } from "flowbite-react";
+
 export function Header() {
   return (
     <Navbar fluid rounded>
@@ -16,8 +16,9 @@ export function Header() {
           label={
             <Avatar
               alt="User settings"
-              img="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+              img="ali.jpg"
               rounded
+              className="object-cover"
             />
           }
         >
@@ -31,11 +32,8 @@ export function Header() {
           <Dropdown.Item>Settings</Dropdown.Item>
           <Dropdown.Divider />
           <Dropdown.Item>Sign out</Dropdown.Item>
-          <Dropdown.Item>
-            <Flowbite>
-              <DarkThemeToggle />
-            </Flowbite>
-          </Dropdown.Item>
+          
+          
         </Dropdown>
         <Navbar.Toggle />
       </div>
