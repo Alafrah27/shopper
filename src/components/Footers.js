@@ -15,7 +15,7 @@ export function Footers() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
-            <h2 className="font-bold text-2xl text-gray-500 ">Musdar_Oline</h2>
+            <h2 className="font-bold text-2xl text-gray-500 my-4 ">Musdar_Oline</h2>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
