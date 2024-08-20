@@ -10,11 +10,7 @@ function CardPage() {
     <div className='grid grid-cols-[auto]   md:grid-cols-3 gap-3 grid-rows-auto my-6 mx-auto w '>
 
        <CardItems />
-       <CardItems />
-       <CardItems />
-       <CardItems />
-       <CardItems />
-       <CardItems />
+       
       
     </div>
     </div>
