@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div
-        className={` max-w-[1000px]  mx-auto px-3 py-2  grid grid-rows-[auto_1fr_auto]  `}
+        className={` max-w-[1000px]  mx-auto px-3 py-2  h-screen grid grid-rows-[auto_1fr_auto]  `}
       >
         <Header />
         <div className="  my-4 w-[100%] mx-auto">
