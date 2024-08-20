@@ -2,7 +2,7 @@
 
 import { Carousel } from "flowbite-react";
 
-export function Slider() {
+function Slider() {
   return (
     <div className="h-[300px] sm:h-64 xl:h-80 2xl:h-[120px">
       <Carousel pauseOnHover>
@@ -35,3 +35,4 @@ export function Slider() {
     </div>
   );
 }
+export default Slider

@@ -2,7 +2,7 @@
 
 import { Carousel } from "flowbite-react";
 
-export function Review() {
+ function Review() {
   return (
     <div>
         <h3 className="text-center text-gray-500 font-bold text-[20px] my-10">Shop by Category</h3>
@@ -55,3 +55,4 @@ export function Review() {
     </div>
   );
 }
+export default Review

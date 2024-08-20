@@ -1,9 +1,10 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
     <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           Musdar_Online
         </span>
@@ -23,17 +24,22 @@ export function Header() {
           }
         >
           <Dropdown.Header>
-            <span className="block text-sm">Bonnie Green</span>
+            <span className="block text-sm">Ali Edris</span>
             <span className="block truncate text-sm font-medium">
-              name@flowbite.com
+              almusderthafa@gmail.com
             </span>
           </Dropdown.Header>
           <Dropdown.Item>Dashboard</Dropdown.Item>
           <Dropdown.Item>Settings</Dropdown.Item>
           <Dropdown.Divider />
-          <Dropdown.Item>Sign out</Dropdown.Item>
-          
-          
+          <Dropdown.Item>
+            <Link to="/login">SignIn</Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <Navbar.Brand href="/register">
+              Register
+            </Navbar.Brand>
+          </Dropdown.Item>
         </Dropdown>
         <Navbar.Toggle />
       </div>
